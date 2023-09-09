@@ -21,10 +21,10 @@ if ($currentTime < $twoHoursAgo || $currentTime > $twoHoursLater) {
 }
 
 // GitHub URL of the file being run
-$githubFileUrl = 'https://github.com/your-github-username/your-repo/blob/main/path/to/your-script.php';
+$githubFileUrl = 'https://github.com/Favour919/Zuri_first_task/blob/main/get_info.php';
 
 // GitHub URL of the full source code
-$githubSourceCodeUrl = 'https://github.com/your-github-username/your-repo';
+$githubSourceCodeUrl = 'https://github.com/Favour919/Zuri_first_task';
 
 // Response JSON
 $response = [
