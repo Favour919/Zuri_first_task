@@ -1,7 +1,7 @@
 <?php
 // Get the query parameters
-$slackName = isset($_GET['slack_name']) ? $_GET['slack_name'] : '';
-$track = isset($_GET['track']) ? $_GET['track'] : '';
+$slackName = isset($_GET['slack_name']) ? $_GET['slack_name'] : 'Favour Bassey';
+$track = isset($_GET['track']) ? $_GET['track'] : 'Backend';
 
 // Get the current day of the week
 $currentDayOfWeek = date('l');
